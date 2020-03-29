@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>index</title>
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<style>
+.op{
+   display: block;
+   border-radius: 100px;
+   animation:change 3s linear infinite;
+}
+body{
+    background-color:orange;
+  
+}
+
+.op1{
+    display: block;
+   border-radius: 100px;
+   animation:change1 3s linear infinite;
+}
+.op2{
+    display: block;
+   border-radius: 100px;
+   animation:change2 3s linear infinite;
+}
+.op3{
+    display: block;
+   border-radius: 100px;
+   animation:change3 3s linear infinite;
+}
+@keyframes change{
+    from{background-colo:rgb(204, 62, 27);
+    border-radius: 100%;
+     }
+    to{
+        background-color:yellow;
+        border-radius: 0;
+    }
+}
+@keyframes change1{
+    from{background-color:yellowgreen;
+    border-radius: 100%;}
+    to{
+        background-color:dodgerblue;
+        border-radius: 0;
+    }
+}
+@keyframes change2{
+    from{background-color:dodgerblue;
+        border-radius: 100%;
+    }
+    to{
+        background-color:yellowgreen;
+        border-radius: 0;
+    }
+}
+@keyframes change3{
+    from{background-color:yellow;
+        border-radius: 100%;}
+    to{
+        background-color:rgb(204, 62, 27);
+        border-radius: 0;
+    }
+}
+
+</style>
+</head>
+<body>
+
+<div class="container">
+   
+            <div class="row">
+                    <div class="col-md-5 col-sm-5 col-xm-5 offset-md-1 op" style="background-color: rgb(204, 62, 27);height:300px;margin-top:40px;">
+                     </div>
+                       <div class="col-md-5  col-sm-5 col-xm-5 offset-md-1 op1"   style="background-color:yellowgreen;height:300px;margin-top:40px">
+                                </div>
+                      <div class="col-md-5 col-xm-5 col-sm-5 offset-md-1 op2"   style="background-color: dodgerblue;height:300px;margin-top:40px">
+                         </div>
+                         <div class="col-md-5 col-xm-5 col-sm-5 offset-md-1 op3"  style="background-color:yellow;height:300px;margin-top:40px">
+                            </div>
+                </div>
+              
+        
+
+</div>
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
